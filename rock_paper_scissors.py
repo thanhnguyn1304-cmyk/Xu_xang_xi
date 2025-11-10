@@ -3,7 +3,7 @@ import random
 options = ('rock', 'paper', 'scissors')
 
 def player_choice():
-    a = input("Choose rock, paper, scissors : ")
+    a = input("Choose rock, paper or scissors : ")
     return a
 def computer_choice():
     return random.choice(options)
