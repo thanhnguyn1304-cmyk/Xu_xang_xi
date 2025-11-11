@@ -17,7 +17,7 @@ def decidewinner(player,computer):
         return 'Invalid choice'
     elif player == computer :
         return "It's a draw"
-    elif player == 'rock' and computer== 'scissors':
+    elif player == 'rock' and computer == 'scissors':
         return 'You have Won'
     elif player == 'scissors' and computer == 'paper':
         return 'You have Won'
